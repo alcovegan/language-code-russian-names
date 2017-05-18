@@ -1,0 +1,26 @@
+{
+  "name": "language-code-russian-names",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --ui tdd --reporter spec test/test.js"
+  },
+  "keywords": ["language", "country", "codes", "russian", "english"],
+  "author": "Alexander Sharabarov <alcovegan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcovegan/language-code-russian-names.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/alcovegan/language-code-russian-names/issues",
+    "email" : "alcovegan@gmail.com"
+  }
+}
