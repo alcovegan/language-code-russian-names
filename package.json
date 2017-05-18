@@ -1,12 +1,18 @@
 {
   "name": "language-code-russian-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small library for getting russian names of languages by their ISO 639-3 code (also by few another).",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --ui tdd --reporter spec test/test.js"
   },
-  "keywords": ["language", "country", "codes", "russian", "english"],
+  "keywords": [
+    "language",
+    "country",
+    "codes",
+    "russian",
+    "english"
+  ],
   "author": "Alexander Sharabarov <alcovegan@gmail.com>",
   "license": "MIT",
   "dependencies": {},
@@ -20,7 +26,7 @@
     "url": "https://github.com/alcovegan/language-code-russian-names.git"
   },
   "bugs": {
-    "url" : "https://github.com/alcovegan/language-code-russian-names/issues",
-    "email" : "alcovegan@gmail.com"
+    "url": "https://github.com/alcovegan/language-code-russian-names/issues",
+    "email": "alcovegan@gmail.com"
   }
 }
