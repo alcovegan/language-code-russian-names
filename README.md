@@ -11,10 +11,13 @@ I made this package for working with countries data by [meldoze](https://github.
 For my own needs i want to get language name(s) by code on Russian, returned as strings. Codes and names taken from [Wikipedia](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B4%D1%8B_%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%B2).
 
 ## Installation
-`npm install language-code-russian-names --save`
+```
+npm install language-code-russian-names
+```
 or
-`yarn add language-code-russian-names`
-
+```
+yarn add language-code-russian-names
+```
 
 ## Notes
 1. Language with code `mol` is Moldavian, but this code is [retired](http://www-01.sil.org/iso639-3/documentation.asp?id=mol) by [merge with Romanian](http://www-01.sil.org/iso639-3/documentation.asp?id=ron) language. So, if you using [meldoze](https://github.com/mledoze/countries) database and pass languages object of Moldova country (`{"ron": "Moldavian"}`) in `langs.ruNames`, you get string with two languages - `Молдавский, Румынский` (Moldavian, Romanian). For `{"ron": "Romanian"}` of Romania country you get just `Румынский` (Romanian). If you pass just a string `ron` you also get only `Румынский`.
@@ -148,7 +151,7 @@ langs.numeric("45");
 [currency-names](https://github.com/alcovegan/currency-names) - another library for working with [meldoze](https://github.com/mledoze/countries) database for getting currency names by currency code(s). Names available on Russian and English. 184 currency codes in total. 
 
 ## Todo
-- [ ] Add npm and yarn install commands in README
+- [x] Add npm and yarn install commands in README
 - [ ] Ability to pass an array of iso 639-3 codes and get string with russian names
 - [ ] Ability to use in browser
 - [ ] Add English names for every language
