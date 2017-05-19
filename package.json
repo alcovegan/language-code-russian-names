@@ -1,6 +1,6 @@
 {
   "name": "language-code-russian-names",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small library for getting russian names of languages by their ISO 639-3 code (also by few another).",
   "main": "index.js",
   "scripts": {
